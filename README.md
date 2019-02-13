@@ -1,11 +1,11 @@
 # Scrap data using python
-	Scrap flipKart data using `beautifulsoup4` package and create json file for 
+	Scrap flipKart data using `beautifulsoup4` package and create json file for below fields
 	```
 	price
 	productType
 	title
 	```
-	
+
 ## Package for scrapping
 	beautifulsoup4
 
