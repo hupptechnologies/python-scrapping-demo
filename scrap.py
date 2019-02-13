@@ -12,10 +12,9 @@ type(res);
 soup = bs4.BeautifulSoup(res.text,'lxml')
 
 ## Filename
-filename = 'details.json';
+filename = 'data/details.json';
 checkExist = os.path.exists(filename);
 if checkExist is False:
-	print("NOT")
 	f = open(filename, "a");
 	json.dump([], f, indent=4)
 	f.close()
